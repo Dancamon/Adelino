@@ -1,0 +1,226 @@
+
+/*INICIO*/
+.banner{
+    width: 100;
+    height: 550px;
+    background: url(img/Empanada\ 1.jpg)fixed center center/ cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    margin-bottom: 2cm;
+    margin-top:10px ;
+    color: black;
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.banner-m{
+    width: 100;
+    height: 680px;
+    background: url(img/malteada\ portada.jpg)no-repeat center center/ cover;
+    display: flex;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    margin-bottom: 2cm;
+    margin-top:10px ;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: black;
+    font-size: 3rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.somos{
+    font-style: italic;
+    font-family: cursive;
+    display: block;
+}
+.somos hr {
+    margin-left:  40%;
+    margin-right: 40%;
+}
+.somos p{
+    margin-left: 30%;
+    margin-right: 30%;
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 8px;
+    margin-bottom: 3cm;
+    text-align: justify;
+}
+.somos h3{
+    color: black;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+
+.footer h2{
+    text-align: center;
+    color: white;
+}
+
+
+.footer{
+    background: #000000;
+    margin-top: 40px;
+    font-size: 1rem;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    line-height: 40px;
+    color: white;
+    display: inline-flex;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.logo2{
+    height: 225px;
+    width: 260px;
+    margin: 20px 0;
+}
+
+.div1 a i{
+    font-size: 2rem;
+    padding: 25px;
+    margin-top: 20px;
+}
+
+.div1 a i:hover{
+    opacity: 0.1;
+}
+
+/*RESERVA*/
+
+#reserva{
+    padding: 3cm;
+    display: flex;
+}
+
+.banner-reserva{
+    width: 100;
+    height: 550px;
+    background: url(img/Empanada\ 1.jpg)fixed center center/ cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    margin-bottom: 2cm;
+    margin-top:10px ;
+    color: black;
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.rese div{
+    height: 2cm;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.rese input{
+    width: 400px;
+    height: 0.9cm;
+    border: 1px solid;
+}
+
+#reserva button{
+    height: 40px;
+    width: 80px;
+    background-color: black;
+    cursor: pointer;
+    border-radius: 1px solid;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    
+}
+
+#reserva button:hover{
+    background: white;
+    padding: 11px;
+    color: black;
+    transition: 0.4s;
+}
+
+.slider-frame {
+	width: 11cm;
+    height: 15cm;
+	margin:50px auto 0;
+	overflow: hidden;
+}
+
+.slider-frame ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: slide 16s infinite alternate ease-in-out;
+}
+
+.slider-frame li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider-frame img {
+	width: 100%;
+}
+
+@keyframes slide {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
+/*CONTACTO*/
+
+.banner-contact {
+    width: 100;
+    height: 550px;
+    background: url(img/Empanada\ 1.jpg)fixed center center/ cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    margin-bottom: 2cm;
+    margin-top:10px ;
+    color: black;
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.dudas{
+    margin-left:30%;
+    margin-right:30%;
+}
+
+.somos h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.somos .xd{
+    margin-top: 100px;
+}

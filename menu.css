@@ -1,0 +1,272 @@
+
+.empanada1{
+    width: 320px;
+    height: 280px;
+    margin-top:  50px;
+    margin-left: 30px;
+    background-size: cover;
+    background-image: url(img/empanada0.1.jpg);
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+
+.empanada1:hover::after{
+    transform: translateY(0);
+}
+
+.empanada1::after{
+    content: "Disfruta del maravilloso sabor de los maicitos con pepinillos envueltos en cilantro, y pequeñas porciones de papas por un valor de 3000 pesos.";
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #000;
+    opacity: 0.6;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    transform: translateY(100%);
+    transition:transform .3s;
+    text-align: center;
+    text-align: justify;
+}
+.empanada2{
+    width: 320px;
+    height: 280px;
+    margin-top:  50px;
+    background-size: cover;
+    background-image: url(img/empanada0.2.jpg);
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+
+.empanada2:hover::after{
+    transform: translateY(0);
+}
+
+.empanada2::after{
+    content: "Disfruta el sabor espectacular de los maicitos con papa, maicitos y trozos de tomate, por un valor de 3000 pesos.";
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #000;
+    opacity: 0.6;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    transform: translateY(100%);
+    transition:transform .3s;
+    text-align: center;
+}
+
+.empanada3{
+    width: 320px;
+    height: 280px;
+    margin-top:  50px;
+    background-size: cover;
+    background-image: url(img/empanada0.3.jpg);
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+
+.empanada3:hover::after{
+    transform: translateY(0);
+}
+
+.empanada3::after{
+    content: "Un esplendor de sabores que proviene de las pastas con arroz y un pequeño picor que proviene del ají en trozos muy pequeños, por un valor de 3000 pesos.";
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #000;
+    opacity: 0.6;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    transform: translateY(100%);
+    transition:transform .3s;
+    text-align: center;
+}
+
+.empanada4{
+    width: 320px;
+    height: 280px;
+    margin-top:  50px;
+    background-size: cover;
+    background-image: url(img/empanada0.4.jpg);
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+}
+
+
+.empanada4:hover::after{
+    transform: translateY(0);
+}
+
+.empanada4::after{
+    content: "Disfruta de esta maravillosa empanada de tomate, cebolla, maicitos y papa, es una delicia, por un valor de 3000 pesos.";
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #000;
+    opacity: 0.6;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    transform: translateY(100%);
+    transition:transform .3s;
+    text-align: center;
+}
+
+.empanada5{
+    width: 320px;
+    height: 280px;
+    margin-top:  50px;
+    margin-left: 30px;
+    background-size: cover;
+    background-image: url(img/slide4.jpg);
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    text-align: center;
+}
+
+
+.empanada5:hover::after{
+    transform: translateY(0);
+}
+
+.empanada5::after{
+    content: "Disfruta del maravilloso sabor de la malteada de vainilla con helado de vainilla sin sabores artificiales ni conservantes, por un valor de 6000 pesos.";
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #000;
+    opacity: 0.6;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    transform: translateY(100%);
+    transition:transform .3s;
+}
+.empanada6{
+    width: 320px;
+    height: 280px;
+    margin-top:  50px;
+    background-size: cover;
+    background-image: url(img/slide1.jpg);
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    text-align: center;
+}
+
+
+.empanada6:hover::after{
+    transform: translateY(0);
+}
+
+.empanada6::after{
+    content: "Una espectacular malteada con sabor a kiwi natural con pedacitos de este mismo por un valor de 5000 pesos.";
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #000;
+    opacity: 0.6;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    transform: translateY(100%);
+    transition:transform .3s;
+}
+.empanada7{
+    width: 320px;
+    height: 280px;
+    margin-top:  50px;
+    background-size: cover;
+    background-image: url(img/48041.jpg);
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    text-align: center;
+}
+
+
+.empanada7:hover::after{
+    transform: translateY(0);
+}
+
+.empanada7::after{
+    content: "Una espléndida malteada de fresa con helado y una fresa de envuelta de chocolate y eso no es todo el vaso tiene crema de chocolate alrededor, y eso no es todo, el chocolate este hecho con un 97% de cacao y un 3% de azúcar, la cantidad necesaria del vaso, por un valor de 7000 pesos.";
+    font-size: 1.2rem;
+    color: #fff;
+    background-color: #000;
+    opacity: 0.6;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    transform: translateY(100%);
+    transition:transform .3s;
+}
+.empanada8{
+    width: 320px;
+    height: 280px;
+    margin-top:  50px;
+    background-size: cover;
+    background-image: url(img/27d421edbcf976cd536c3693bab14e20.jpg);
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+    text-align: center;
+}
+
+
+.empanada8:hover::after{
+    transform: translateY(0);
+}
+
+.empanada8::after{
+    content: "Una malteada deliciosa de fresa con trozos de fresas espectacular, por solo un valor de 5000 pesos.";
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #000;
+    opacity: 0.6;
+    position: absolute;
+    inset: 0;
+    display: grid;
+    place-items: center;
+    transform: translateY(100%);
+    transition:transform .3s;
+}
+
+.banner-menu{
+    width: 100;
+    height: 550px;
+    background: url(img/Empanada\ 1.jpg)fixed center center/ cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    margin-bottom: 2cm;
+    margin-top:10px ;
+    color: black;
+    font-size: 45px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
